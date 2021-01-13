@@ -1392,7 +1392,12 @@ export default {
 			$('#exampleModal0').show();
 		}
 		
-  }
+  },
+  mounted() {
+      let recaptchaScript = document.createElement('script')
+      recaptchaScript.setAttribute('src', 'https://code.jquery.com/jquery-3.5.1.min.js')
+      document.head.appendChild(recaptchaScript)
+    },
 }
 </script>
 
@@ -1406,7 +1411,6 @@ export default {
 	@import "https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css";
 	@import "https://use.fontawesome.com/releases/v5.6.1/css/all.css";
 	@import "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css";
-
 
 	.measure-invisible {
 		display: none;

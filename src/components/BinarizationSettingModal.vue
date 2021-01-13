@@ -44,23 +44,9 @@ export default {
 			return this.choice === val;
         },
         closeModal: function() {
-
             $('#exampleModal11bn').removeClass('show');
             $('#exampleModal11bn').hide(200);
-
         }
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-
-<style scoped>
-	@import "../assets/css/style.css";
-	@import "../assets/css/Control.FullScreen.css";
-	@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
-	@import "../assets/open-iconic/font/css/open-iconic-bootstrap.min.css";
-	@import "https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css";
-	@import "https://use.fontawesome.com/releases/v5.6.1/css/all.css";
-	@import "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css";
-</style>
