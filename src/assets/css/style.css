@@ -1,0 +1,106 @@
+#customRangeZ {
+  height: 150px;
+  width: 25px;
+}
+
+.col-8 {
+  
+    position:  relative;        
+    z-index: 10;                
+}
+
+.modal fade {
+    
+    position: relative;
+    z-index: 1;
+}
+
+#exampleModal, #exampleModal1, #exampleModal2, #exampleModal10, #exampleModal11,
+#exampleModal6, #exampleModal7, #exampleModal12, #exampleModal14, #exampleModal15,
+#exampleModal8, #exampleModal9, #exampleModal11b, #exampleModal16, #exampleModal17, 
+#exampleModal18, #exampleModal19, #exampleModal21, #exampleModal22,
+#exampleModal23, #exampleModal24, #exampleModal25, #exampleModal26, #exampleModal11bn {
+    width: 800px !important;
+    height: 300px !important;
+    overflow-y: hidden !important;
+    top: 100px;
+    left: calc(50% - 400px);
+}
+
+#exampleModal3 {
+    width: 1000px !important;
+    height: 600px !important;
+    overflow-y: hidden !important;
+    top: 100px;
+    left: calc(50% - 500px);
+}
+
+#exampleModal13 {
+    width: 800px !important;
+    height: 560px !important;
+    overflow-y: hidden !important;
+    top: 100px;
+    left: calc(50% - 400px);
+}
+#exampleModal13 img {
+    display: block;
+    margin: 0 auto;
+}
+
+#exampleModal0 {
+    width: 800px !important;
+    height: 300px !important;
+    overflow-y: hidden !important;
+    top: 100px;
+    left: calc(50% - 400px);
+}
+
+#save-file-box{
+    margin: 0 auto;
+    width: 260px;
+}
+
+#file-ext {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+#exampleModal4, #exampleModal5{
+    width: 800px !important;
+    height: 1000px !important;
+    overflow-y: hidden !important;
+    top: 100px;
+    left: calc(50% - 400px);
+}
+
+#exampleModal20 {
+    width: 1000px !important;
+    height: 1200px !important;
+    overflow-y: hidden !important;
+    top: 100px;
+    left: calc(50% -400px);
+}
+
+.font-small{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.font-small2{
+    font-size: 0.7rem;
+    font-weight:500;
+}
+
+.font-med{
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+.btn-sm2 {
+    width: 5px !important;
+    height:10px !important;    
+}
