@@ -679,8 +679,8 @@
 													<div class="card-body">
 														<p>Learning Method</p>
 														<div class="btn-group" role="group">
-															<button class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal16" type="button">DL call</button>
-															<button class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal17" type="button">ML call</button>
+															<button class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal16" type="button" @click="showLearningDlCallModal">DL call</button>
+															<button class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal17" type="button" @click="showLearningMlCallModal">ML call</button>
 															<button class="btn btn-light btn-sm" type="button">Go</button>
 														</div>
 													</div>
@@ -691,98 +691,17 @@
 													<div class="card-body">
 														<p>Object Method</p>
 														<div class="btn-group" role="group">
-															<button class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal18" type="button">DL call</button>
-															<button class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal19" type="button">ML call</button>
+															<button class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal18" type="button" @click="showObjectDlCallModal">DL call</button>
+															<button class="btn btn-light btn-sm" data-toggle="modal" data-target="#exampleModal19" type="button" @click="showObjectMlCallModal">ML call</button>
 														</div>
 													</div>
 												</div>
 												<!-- /Object Method -->
-
 												<!-- Modal Learning DL call-->
-													<div class="modal fade" id="exampleModal16" data-backdrop="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-														<div class="modal-dialog modal-dialog-left" role="document">
-															<div class="modal-content">
-																<div class="modal-header" id="exampleModal16-header">
-																	<h6 class="modal-title" id="exampleModalLabel16">DL call</h6>
-																	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-																		<span aria-hidden="true">&times;</span>
-																	</button>
-																</div>
-																<div class="modal-body">
-
-																</div>
-																<div class="modal-footer" id="exampleModa16-footer">
-																	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-																	<button type="button" class="btn btn-primary">Select</button>
-																</div>
-															</div>
-														</div>
-													</div>
-													<!-- /Modal Learning DL call -->
-													<!-- Modal Learning ML call-->
-													<div class="modal fade" id="exampleModal17" data-backdrop="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-														<div class="modal-dialog modal-dialog-left" role="document">
-															<div class="modal-content">
-																<div class="modal-header" id="exampleModal17-header">
-																	<h6 class="modal-title" id="exampleModalLabel17">ML call</h6>
-																	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-																		<span aria-hidden="true">&times;</span>
-																	</button>
-																</div>
-																<div class="modal-body">
-
-																</div>
-																<div class="modal-footer" id="exampleModa17-footer">
-																	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-																	<button type="button" class="btn btn-primary">Select</button>
-																</div>
-															</div>
-														</div>
-													</div>
-													<!-- /Modal Learning ML call -->
-
-													<!-- Modal Object DL call -->
-													<div class="modal fade" id="exampleModal18" data-backdrop="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-														<div class="modal-dialog modal-dialog-left" role="document">
-															<div class="modal-content">
-																<div class="modal-header" id="exampleModal18-header">
-																	<h6 class="modal-title" id="exampleModalLabel18">DL call</h6>
-																	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-																		<span aria-hidden="true">&times;</span>
-																	</button>
-																</div>
-																<div class="modal-body">
-
-																</div>
-																<div class="modal-footer" id="exampleModa18-footer">
-																	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-																	<button type="button" class="btn btn-primary">Select</button>
-																</div>
-															</div>
-														</div>
-													</div>
-													<!-- /Modal  Object DL call  -->
-													<!-- Modal  Object ML call  -->
-													<div class="modal fade" id="exampleModal19" data-backdrop="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-														<div class="modal-dialog modal-dialog-left" role="document">
-															<div class="modal-content">
-																<div class="modal-header" id="exampleModal19-header">
-																	<h6 class="modal-title" id="exampleModalLabel19">ML call</h6>
-																	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-																		<span aria-hidden="true">&times;</span>
-																	</button>
-																</div>
-																<div class="modal-body">
-
-																</div>
-																<div class="modal-footer" id="exampleModa19-footer">
-																	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-																	<button type="button" class="btn btn-primary">Select</button>
-																</div>
-															</div>
-														</div>
-													</div>
-													<!-- /Modal Object ML call -->
+												<LearningDlCallModal></LearningDlCallModal>
+												<LearningMlCallModal></LearningMlCallModal>
+												<ObjectDlCallModal></ObjectDlCallModal>
+												<ObjectMlCallModal></ObjectMlCallModal>
 											</div><!-- /card-body -->
 									</div><!-- /card M1-->
 
@@ -1330,6 +1249,10 @@ import FilePositionModal from '../components/FilePositionModal.vue';
 import ChangeDimensionModal from '../components/ChangeDimensionModal.vue';
 import VesselSelectModal from '../components/VesselSelectModal.vue';
 import VesselExpansionModal from '../components/VesselExpansionModal.vue';
+import LearningDlCallModal from '../components/LearningDlCallModal.vue';
+import LearningMlCallModal from '../components/LearningMlCallModal.vue';
+import ObjectDlCallModal from '../components/ObjectDlCallModal.vue';
+import ObjectMlCallModal from '../components/ObjectMlCallModal.vue';
 
 export default {
   name: 'Main',
@@ -1354,7 +1277,11 @@ export default {
 	FilePositionModal,
 	ChangeDimensionModal,
 	VesselSelectModal,
-	VesselExpansionModal
+	VesselExpansionModal,
+	LearningDlCallModal,
+	LearningMlCallModal,
+	ObjectDlCallModal,
+	ObjectMlCallModal
   },
   data() {
 
@@ -1473,6 +1400,22 @@ export default {
 		showVesselExpansionModal: function() {
 			$('#exampleModal13').addClass('show');
 			$('#exampleModal13').css('display', 'block');
+		},
+		showLearningDlCallModal: function() {
+			$('#exampleModal16').addClass('show');
+			$('#exampleModal16').css('display', 'block');
+		},
+		showLearningMlCallModal: function() {
+			$('#exampleModal17').addClass('show');
+			$('#exampleModal17').css('display', 'block');
+		},
+		showObjectDlCallModal: function() {
+			$('#exampleModal18').addClass('show');
+			$('#exampleModal18').css('display', 'block');
+		},
+		showObjectMlCallModal: function() {
+			$('#exampleModal19').addClass('show');
+			$('#exampleModal19').css('display', 'block');
 		}
 		
   }
