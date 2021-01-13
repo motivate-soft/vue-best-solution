@@ -47,7 +47,7 @@ export default {
         closeModal: function() {
 
             $('#exampleModal7').removeClass('show');
-            $('#exampleModal7').css('display', 'none');
+            $('#exampleModal7').hide(200);
 
         }
   }

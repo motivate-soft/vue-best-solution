@@ -161,7 +161,7 @@ export default {
         closeModal: function() {
 
             $('#exampleModal3').removeClass('show');
-            $('#exampleModal3').css('display', 'none');
+            $('#exampleModal3').hide(200);
 
         }
   }

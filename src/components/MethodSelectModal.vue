@@ -108,7 +108,7 @@ export default {
         closeModal: function() {
 
             $('#exampleModal').removeClass('show');
-            $('#exampleModal').css('display', 'none');
+            $('#exampleModal').hide(200);
 
         }
   }

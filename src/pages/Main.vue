@@ -1189,13 +1189,10 @@
 				</div><!-- /col-2 右パネル-->
 			</div><!-- /row -->
 		</div><!-- /container-fluid -->
-
 		<!-- </div>
 		</div> いらない？-->
-
 		<!-- Modal -->
 		<SaveAsModal></SaveAsModal>
-
 	</div>
 </template>
 
@@ -1304,95 +1301,95 @@ export default {
 		},
 		showMethodSelectModal: function() {
 			$('#exampleModal').addClass('show');
-			$('#exampleModal').css('display', 'block');
+			$('#exampleModal').show();
 		},
 		showMergeSpritSettingModal: function() {
 			$('#exampleModal11b').addClass('show');
-			$('#exampleModal11b').css('display', 'block');
+			$('#exampleModal11b').show();
 		},
 		showLightSettingModal: function() {
 			$('#exampleModal11').addClass('show');
-			$('#exampleModal11').css('display', 'block');
+			$('#exampleModal11').show();
 		},
 		showBinarizationSettingModal: function() {
 			$('#exampleModal11bn').addClass('show');
-			$('#exampleModal11bn').css('display', 'block');
+			$('#exampleModal11bn').show();
 		},
 		showScaleSettingModal: function() {
 			$('#exampleModal10').addClass('show');
-			$('#exampleModal10').css('display', 'block');
+			$('#exampleModal10').show();
 		},
 		showFilter2DModal: function() {
 			$('#exampleModal4').addClass('show');
-			$('#exampleModal4').css('display', 'block');
+			$('#exampleModal4').show();
 		},
 		showFilter3DModal: function() {
 			$('#exampleModal5').addClass('show');
-			$('#exampleModal5').css('display', 'block');
+			$('#exampleModal5').show();
 		},
 		showCalculationModal: function() {
 			$('#exampleModal12').addClass('show');
-			$('#exampleModal12').css('display', 'block');
+			$('#exampleModal12').show();
 		},
 		showSubstractionModal: function() {
 			$('#exampleModal14').addClass('show');
-			$('#exampleModal14').css('display', 'block');
+			$('#exampleModal14').show();
 		},
 		showCorrectionModal: function() {
 			$('#exampleModal2').addClass('show');
-			$('#exampleModal2').css('display', 'block');
+			$('#exampleModal2').show();
 		},
 		showOptionModal: function() {
 			$('#exampleModal15').addClass('show');
-			$('#exampleModal15').css('display', 'block');
+			$('#exampleModal15').show();
 		},
 		showSet2DModal: function() {
 			$('#exampleModal6').addClass('show');
-			$('#exampleModal6').css('display', 'block');
+			$('#exampleModal6').show();
 		},
 		showSet3DModal: function() {
 			$('#exampleModal7').addClass('show');
-			$('#exampleModal7').css('display', 'block');
+			$('#exampleModal7').show();
 		},
 		showFocusStackModal: function() {
 			$('#exampleModal8').addClass('show');
-			$('#exampleModal8').css('display', 'block');
+			$('#exampleModal8').show();
 		},
 		showFilePositionModal: function() {
 			$('#exampleModal3').addClass('show');
-			$('#exampleModal3').css('display', 'block');
+			$('#exampleModal3').show();
 		},
 		showChangeDimensionModal: function() {
 			$('#exampleModal9').addClass('show');
-			$('#exampleModal9').css('display', 'block');
+			$('#exampleModal9').show();
 		},
 		showVesselSelectModal: function() {
 			$('#exampleModal1').addClass('show');
-			$('#exampleModal1').css('display', 'block');
+			$('#exampleModal1').show();
 		},
 		showVesselExpansionModal: function() {
 			$('#exampleModal13').addClass('show');
-			$('#exampleModal13').css('display', 'block');
+			$('#exampleModal13').show();
 		},
 		showLearningDlCallModal: function() {
 			$('#exampleModal16').addClass('show');
-			$('#exampleModal16').css('display', 'block');
+			$('#exampleModal16').show();
 		},
 		showLearningMlCallModal: function() {
 			$('#exampleModal17').addClass('show');
-			$('#exampleModal17').css('display', 'block');
+			$('#exampleModal17').show();
 		},
 		showObjectDlCallModal: function() {
 			$('#exampleModal18').addClass('show');
-			$('#exampleModal18').css('display', 'block');
+			$('#exampleModal18').show();
 		},
 		showObjectMlCallModal: function() {
 			$('#exampleModal19').addClass('show');
-			$('#exampleModal19').css('display', 'block');
+			$('#exampleModal19').show();
 		},
 		showSaveAsModal: function() {
 			$('#exampleModal0').addClass('show');
-			$('#exampleModal0').css('display', 'block');
+			$('#exampleModal0').show();
 		}
 		
   }

@@ -56,7 +56,7 @@ export default {
         },
         closeModal: function() {
             $('#exampleModal0').removeClass('show');
-            $('#exampleModal0').css('display', 'none');
+            $('#exampleModal0').hide(200);
         },
         saveAs: function() {
             console.log("saveas");

@@ -179,7 +179,7 @@ export default {
         closeModal: function() {
 
             $('#exampleModal4').removeClass('show');
-            $('#exampleModal4').css('display', 'none');
+            $('#exampleModal4').hide(200);
 
         }
   }

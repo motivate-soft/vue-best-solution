@@ -123,7 +123,7 @@ export default {
         closeModal: function() {
 
             $('#exampleModal5').removeClass('show');
-            $('#exampleModal5').css('display', 'none');
+            $('#exampleModal5').hide(200);
 
         }
   }
