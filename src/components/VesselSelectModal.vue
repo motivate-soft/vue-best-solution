@@ -40,32 +40,32 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane" id="tab-a9" v-bind:class="{active : isActiveTab('tab-1')}">
                             <div class="btn-group" role="group">
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/slide_single.png" height=50px width=70px>Single</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/slide_double.png" height=50px width=70px>Double</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/slide_single.png" height=50px width=70px>Single</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/slide_double.png" height=50px width=70px>Double</button>
                             </div>
                         </div><!-- tab-a9 -->
                         <div role="tabpanel" class="tab-pane" id="tab-a10" v-bind:class="{active : isActiveTab('tab-2')}">
                             <div class="btn-group" role="group">
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/35dish.png" height=50px width=70px>35</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/60dish.png" height=50px width=70px>60</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/100dish.png" height=50px width=70px>100</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/35dish.png" height=50px width=70px>35</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/60dish.png" height=50px width=70px>60</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/100dish.png" height=50px width=70px>100</button>
                             </div>
                         </div><!-- tab-a10 -->
                         <div role="tabpanel" class="tab-pane" id="tab-a11" v-bind:class="{active : isActiveTab('tab-3')}">
                             <div class="btn-group" role="group">
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/6well.png" height=50px width=70px>6</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/12well.png" height=50px width=70px>12</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/24well.png" height=50px width=70px>24</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/48well.png" height=50px width=70px>48</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/96wellplate.png" height=50px width=70px>96</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/384well.png" height=50px width=70px>384</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/6well.png" height=50px width=70px>6</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/12well.png" height=50px width=70px>12</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/24well.png" height=50px width=70px>24</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/48well.png" height=50px width=70px>48</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/96wellplate.png" height=50px width=70px>96</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/384well.png" height=50px width=70px>384</button>
                             </div>
                         </div><!-- tab-a11 -->
                         <div role="tabpanel" class="tab-pane" id="tab-a12" v-bind:class="{active : isActiveTab('tab-4')}">
                             <div class="btn-group" role="group">
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/150wafer.png" height=50px width=70px>150(6inch)</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/200wafer.png" height=50px width=70px>200(8inch)</button>
-                                <button class="btn btn-light btn-md" type="button" onclick="changeImage(this)"><img src="../assets/image/300wafer.png" height=50px width=70px>300(12inc)</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/150wafer.png" height=50px width=70px>150(6inch)</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/200wafer.png" height=50px width=70px>200(8inch)</button>
+                                <button class="btn btn-light btn-md" type="button" @click="changeImage(this)"><img src="../assets/image/300wafer.png" height=50px width=70px>300(12inc)</button>
                             </div>
                         </div><!-- tab-a12 -->
                         <div role="tabpanel" class="tab-pane" id="tab-a13" v-bind:class="{active : isActiveTab('tab-5')}">
